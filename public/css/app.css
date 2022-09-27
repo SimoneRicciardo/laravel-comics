@@ -5,8 +5,7 @@ ul {
   align-items: center;
 }
 
-header img,
-ul img {
+img {
   padding: 10px 0;
 }
 
@@ -26,11 +25,6 @@ li a:hover {
   color: rgb(0, 124, 249);
 }
 
-.my_container {
-  max-width: 1170px;
-  margin: 0 auto;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -40,5 +34,42 @@ li a:hover {
 html {
   font-family: sans-serif;
   font-size: 14px;
+}
+
+.cont_style {
+  background-color: black;
+  color: white;
+}
+
+.cont_style .mystyle {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cont_style .style_jumbo {
+  background-image: url(/assets/images/jumbotron.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 55px;
+  height: 500px;
+}
+
+.my_container {
+  width: 1700px;
+  margin: 0 auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  margin-bottom: 20px;
+}
+
+.img_card {
+  height: 150px;
+  width: 100px;
 }
 

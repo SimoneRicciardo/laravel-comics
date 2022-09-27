@@ -2,9 +2,10 @@ header, ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    img{
-        padding: 10px 0;
-    }
+}
+
+img{
+    padding: 10px 0;
 }
 
 li{
@@ -22,9 +23,4 @@ li{
                 }
     }
 
-}
-
-.my_container {
-    max-width: 1170px;
-    margin: 0 auto;
 }

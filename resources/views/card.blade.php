@@ -1,4 +1,4 @@
-@extends('/app')
+@extends('layout.app')
 
 @section('content')
 
@@ -6,18 +6,18 @@
     <div class=" style_jumbo">
         <img src="" alt="">
     </div>
+    <a href="{{route('home')}}">Home</a>
     <div class="my_container mystyle">
-        <div class="">
-            @foreach ($comic as $key => $formato)
-            <div class="">
-                <img class="img_card" src="{{$formato['thumb']}}" :alt="">
-                <div>
-                    <span>{{$formato['title']}}</span>
-                    <span>{{}}</span>
-                </div>
-            </div> 
-            @endforeach 
-        </div>
+        @foreach ($comic as $key => $item)
+        <div class="card">
+            <a href="">
+                <img class="img_card" src="{{$item['thumb']}}" alt="{{$item['title']}}">
+            </a>
+            <div>
+                <span>{{$item['title']}}</span>
+            </div>
+        </div> 
+        @endforeach 
     </div>
 </div>
 

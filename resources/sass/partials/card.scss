@@ -1,0 +1,35 @@
+.cont_style{
+    background-color: black;
+    color: white;
+
+            .mystyle{
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+                .style_jumbo{
+                    background-image: url(/assets/images/jumbotron.jpg);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    margin-bottom: 55px;
+                    height: 500px;
+                }          
+}
+
+.my_container{
+    width: 1700px;
+    margin: 0 auto;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% / 4);
+    margin-bottom: 20px;
+}
+
+.img_card{
+    height: 150px;
+    width: 100px;
+}

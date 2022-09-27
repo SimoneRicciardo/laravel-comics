@@ -1,6 +1,6 @@
 <header class="my_container">
-    <img src="" alt="">
-    <!-- <nav>
+    <img src="{{asset('images/dc-logo.png')}}" alt="">
+    <nav>
         <ul>
             <li>
                 <a href="#">CHARACTERS</a>
@@ -33,5 +33,5 @@
                 <a href="#">SHOP</a>
             </li>
         </ul>
-    </nav> -->
+    </nav>
 </header>
