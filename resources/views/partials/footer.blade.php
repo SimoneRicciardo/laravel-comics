@@ -1,5 +1,5 @@
 <footer>
-    <div class="mystyle">
+    <!-- <div class="mystyle">
         <ul class="my_container">
             <li>
             </li>
@@ -55,5 +55,5 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </footer>
